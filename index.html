@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock-Paper-Scissor</title>
+</head>
+<body>
+
+    <header>
+        <div class="title-img">
+            <img src="./images/rock-paper-scissors.png" alt="title-image">
+        </div>
+        <div class="title">Rock-Paper-Scissor</div>  
+    </header>
+    
+    <div class="score">
+        <div class="player">
+            <div id="resultOfPlayer">Player :</div>
+            <div id="resultOfComputer">Computer :</div>
+        </div>
+    </div>
+    <div class="choose">
+        <div id="rock" onclick="game('rock')">
+            <img src="./images/stone.png" alt="stone">
+        </div>
+        <div id="paper" onclick="game('paper')"> 
+            <img src="./images/paper.png" alt="paper">
+        </div>
+        <div id="scissor"  onclick="game('scissor')">
+            <img src="./images/scissors.png" alt="scissor"">
+        </div>
+    </div>
+
+    <div class="result" >
+        <div>
+            <p id="status">Let's begin !</p>
+        </div>
+        
+    </div>
+
+    <div class="control">
+        <button onclick="reset()">Retry</button>
+    </div>
+    <footer>
+        <div>&#169; Copyright  Azim  Ahmed  Bijapur  2022</div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
