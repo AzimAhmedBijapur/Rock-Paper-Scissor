@@ -124,5 +124,7 @@ function reset(){
     count=0;
     document.getElementById('resultOfPlayer').textContent='Player : '+player;
     document.getElementById('resultOfComputer').textContent='Computer : '+computer;
-    document.getElementById('status').textContent="Let's begin!";
+    document.getElementById('status').style.color='#bdeb05';
+    document.getElementById('status').textContent="Let's begin !";
+    
 }
