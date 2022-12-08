@@ -5,6 +5,9 @@
 body{
     margin: 0px;
     background-color: black;
+    /* background-image: url('./images/space.jpg'); */
+    background-repeat: round;
+    background-size: contain;
     font-family: gameFont;
     color: #bdeb05;
 }
@@ -74,6 +77,7 @@ header div{
     padding: 20px 20px;
     word-spacing: 10px;
 }
+
 .control{
     display: flex;
     justify-content: center;
