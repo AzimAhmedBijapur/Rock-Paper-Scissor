@@ -116,3 +116,43 @@ footer div{
     padding: 5px;
     word-spacing:5px
 }
+
+/* Media query */
+
+@media only screen and (max-width:600px){
+
+    header{
+        flex-direction: column-reverse;
+    }
+    .title{
+        font-size: 3rem;
+    }
+    .choose{
+        flex-direction: column;
+        margin-top: 20px;
+        align-items: center;
+        height: 400px;
+        padding: 15px 20px;
+        gap: 20px;
+        
+    }
+    .choose div{
+        margin-top: 10px;
+        width: 200px;
+    }
+    .result{
+        font-size: 1.5rem;
+        margin-top: 40px;
+        text-align: center;
+        word-spacing: 6px;
+    }
+    footer{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width:1000px){
+
+    header{
+        flex-direction: column-reverse;
+    }
+}
