@@ -2,6 +2,6 @@
   
 This is a rock paper scissor game programmed using javascript
 
-#Image credits
+# Image credits
   
 https://www.flaticon.com/
