@@ -130,6 +130,12 @@ footer div{
     .title{
         font-size: 3rem;
     }
+    .title-img{
+        display: flex;
+        justify-content: center;
+        height:70px;
+        width: 70px;
+    }
     .choose{
         flex-direction: column;
         margin-top: 20px;
