@@ -62,7 +62,10 @@ header div{
     background-color: orange;
     border: solid 5px red;
 }
-
+.choose div:hover{
+    background-color: yellow;
+    box-shadow: 1px 1px 8px 8px lightgrey ;
+}
 .result {
     display: flex;
     flex-direction:column;
@@ -90,6 +93,10 @@ header div{
 }
 button:hover{
     cursor: pointer;
+    height: 60px;
+    width: 130px;
+    color: yellow;
+    box-shadow: 1px 1px 5px 5px lightgrey ;
 }
 footer{
     display: flex;
