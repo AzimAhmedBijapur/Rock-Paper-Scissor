@@ -5,7 +5,6 @@
 body{
     margin: 0px;
     background-color: black;
-    /* background-image: url('./images/space.jpg'); */
     background-repeat: round;
     background-size: contain;
     font-family: gameFont;
