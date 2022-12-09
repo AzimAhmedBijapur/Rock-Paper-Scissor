@@ -30,8 +30,15 @@ header div{
 .title-img{
     display: flex;
     justify-content: center;
-    height:100px;
+    /* height:100px;
+    width: 100px; */
+}
+.title-img{
+    flex-basis: 2%;
+}
+.title-img img{
     width: 100px;
+    height: auto;
 }
 .score{
     display: flex;
@@ -150,11 +157,9 @@ footer div{
     .title{
         font-size: 3rem;
     }
-    .title-img{
-        display: flex;
-        justify-content: center;
-        height:70px;
-        width: 70px;
+    .title-img img{
+        height: auto;
+        width: 80px;
     }
     .choose{
         flex-direction: column;
