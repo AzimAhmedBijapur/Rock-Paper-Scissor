@@ -23,14 +23,14 @@
         </div>
     </div>
     <div class="choose">
-        <div id="rock" onclick="game('rock')">
+        <div id="rock" onclick="game('rock')" class="opt">
             <img src="./images/stone.png" alt="stone">
         </div>
-        <div id="paper" onclick="game('paper')"> 
+        <div id="paper" onclick="game('paper')" class="opt"> 
             <img src="./images/paper.png" alt="paper">
         </div>
         <div id="scissor"  onclick="game('scissor')">
-            <img src="./images/scissors.png" alt="scissor"">
+            <img src="./images/scissors.png" alt="scissor" class="opt">
         </div>
     </div>
 
@@ -44,6 +44,8 @@
     <div class="control">
         <button onclick="reset()">Retry</button>
     </div>
+    <audio src="./sound/tink.wav" class="tink"></audio>
+    <audio src="./sound/boom.wav" class="boom"></audio>
     <footer>
         <div>&#169; Copyright  Azim  Ahmed  Bijapur  2022</div>
     </footer>
