@@ -217,3 +217,24 @@ function reset(){
     style.pointerEvents = 'auto';
     
 }
+
+const opts= document.querySelectorAll('.opt')
+
+opts.forEach((opts)=>{
+
+    const audio=document.querySelector(`audio[class="tink"]`);
+    opts.addEventListener('click',()=>{
+        audio.currentTime=0;
+        audio.play();
+    })
+})
+
+const buttons= document.querySelector('button')
+
+const audio=document.querySelector(`audio[class="boom"]`);
+buttons.addEventListener('click',()=>{
+audio.currentTime=0;
+audio.play();
+
+})
+    
